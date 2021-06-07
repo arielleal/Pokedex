@@ -14,7 +14,7 @@ class MyApplication: Application() {
             androidLogger()
             androidContext(this@MyApplication)
 
-            modules(koinModule)
+            modules(dataModule)
         }
     }
 
