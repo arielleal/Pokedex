@@ -1,9 +1,8 @@
 package com.pokedex.domain.repository
 
-import com.pokedex.data.model.PokemonResponse
+import com.pokedex.domain.model.Pokemon
 import io.reactivex.Single
-import retrofit2.Call
 
 interface PokedexRepository {
-    fun getPokemonList(): Single<List<PokemonResponse>>
+    fun getPokemonList(): Single<List<Pokemon>>
 }
